@@ -1,0 +1,31 @@
+.package {
+    background: linear-gradient(90deg, #09203f 0%, #161d2f 100%);
+    color: #fff;
+    .package__title {
+    }
+    .package__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .package-item {
+        background-color: #fff;
+        width: 350px;
+    }
+    .package-item__title {
+    }
+    .package-item__img {
+    }
+    .package-item__trainer {
+    }
+    .package-item__list {
+    }
+    .package-item__list-item {
+    }
+    .package-item__price {
+    }
+    .package-item__btn {
+    }
+    .main-btn {
+    }
+}
