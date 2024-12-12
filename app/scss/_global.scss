@@ -42,3 +42,24 @@ button{
     padding: 13px 0;
     border-radius: 28px;
 }
+
+section {
+    padding: 100px 0;
+}
+
+.section-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #262626;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--text-color);
+}

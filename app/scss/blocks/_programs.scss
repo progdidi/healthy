@@ -1,0 +1,80 @@
+.programs {
+    .section-subtitle {
+        text-align: center;
+    }
+    .programs__title {
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+    .programs-slider {
+        position: relative;
+        .programs__items {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            .programs-item {
+                width: 350px;
+                &__img {
+                    margin-bottom: 20px;
+                }
+                &__title {
+                    font-weight: 500;
+                    font-size: 30px;
+                    line-height: 150%;
+                    color: var(--text-color);
+                }
+                &__author {
+                    font-size: 14px;
+                    line-height: 186%;
+                    color: #222;
+                    color: var(--text-color);
+                }
+                &__descr {
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 186%;
+                    color: #4b4b4b;
+                    margin-bottom: 20px;
+                }
+                &__link {
+                    position: relative;
+                    padding-right: 30px;
+                    &::after {
+                        position: absolute;
+                        content: '';
+                        right: 0;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        width: 20px;
+                        height: 20px;
+                        background-image: url('../../icons/arr.svg');
+                        background-repeat: no-repeat;
+                    }
+
+                }
+            }
+        }
+    
+        &__buttons {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .programs-slider__btn {
+                width: 45px;
+                height: 45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+    }
+    
+   
+    
+}
