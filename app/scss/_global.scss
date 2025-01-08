@@ -51,7 +51,8 @@ section {
 .section-subtitle {
     font-weight: 400;
     font-size: 14px;
-    color: #262626;
+    color: var(--text-color);
+    text-transform: uppercase;
     margin-bottom: 10px;
 }
 
@@ -60,5 +61,5 @@ section {
     font-size: 40px;
     line-height: 150%;
     text-transform: capitalize;
-    color: var(--text-color);
+    color: var(--dark-blue-color);
 }
